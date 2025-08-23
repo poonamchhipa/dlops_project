@@ -169,3 +169,44 @@ x=======x]
 [2025-08-23 20:34:21,825: INFO: main: >>>>>> Training completed <<<<<<
 
 x==========x]
+[2025-08-23 23:22:17,572: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2025-08-23 23:22:17,575: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-08-23 23:22:17,583: INFO: common: YAML file params.yaml loaded successfully]
+[2025-08-23 23:22:17,585: INFO: common: created directory at: artifacts]
+[2025-08-23 23:22:17,589: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-23 23:22:17,589: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-08-23 23:22:18,188: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-08-23 23:22:18,188: INFO: main: >>>>>> Prepare Base Model started <<<<]
+[2025-08-23 23:22:18,192: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-08-23 23:22:18,196: INFO: common: YAML file params.yaml loaded successfully]
+[2025-08-23 23:22:18,196: INFO: common: created directory at: artifacts]
+[2025-08-23 23:22:18,199: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-08-23 23:22:19,152: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-23 23:22:19,607: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-23 23:22:19,892: INFO: main: >>>>>>> Prepare Base Model completed <<<<<
+
+x=======x]
+[2025-08-23 23:22:19,892: INFO: main: >>>>>> Training started <<<<<<]
+[2025-08-23 23:22:19,897: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-08-23 23:22:19,901: INFO: common: YAML file params.yaml loaded successfully]
+[2025-08-23 23:22:19,903: INFO: common: created directory at: artifacts]
+[2025-08-23 23:22:19,904: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2025-08-23 23:22:19,906: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
+[2025-08-23 23:22:19,908: INFO: common: created directory at: artifacts\training]
+[2025-08-23 23:22:20,303: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-08-23 23:29:33,575: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-23 23:29:33,785: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-08-23 23:29:33,940: INFO: main: >>>>>> Training completed <<<<<<
+
+x==========x]
+[2025-08-23 23:29:33,940: INFO: main: >>>>>> Evaluation started <<<<<<]
+[2025-08-23 23:29:33,943: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-08-23 23:29:33,945: INFO: common: YAML file params.yaml loaded successfully]
+[2025-08-23 23:29:33,945: INFO: common: created directory at: artifacts]
+[2025-08-23 23:29:34,141: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-08-23 23:30:09,626: INFO: common: json file saved at: scores.json]
+[2025-08-23 23:30:09,626: INFO: main: >>>>>> Evaluation completed <<<<<<
+
+x==========x]
